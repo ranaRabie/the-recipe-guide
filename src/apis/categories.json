@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Salads",
+        "id": 3,
+        "image": "images/salad.jpg"
+    },
+    {
+        "name": "Main Dish",
+        "id": 2,
+        "image": "images/main-dish.jpg"
+    },
+    {
+        "name": "Deserts",
+        "id": 1,
+        "image": "images/desert.jpg"
+    }
+]
