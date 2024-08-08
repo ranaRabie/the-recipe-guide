@@ -1,16 +1,8 @@
-$primary: #FF8364;
-$secondary: #333;
-$light: #ddd;
-$textLight: #999;
-$white: #fff;
-$profileNavBG: #eee;
-
+@import "./theme.scss";
 @import "~bootstrap/scss/bootstrap";
 
 html,
 body {
-    // width: 100vw;
-    // min-width: 100%;
     box-sizing: border-box;
     overflow-x: hidden;
 }
@@ -19,4 +11,8 @@ body {
     &.btn-primary{
         color: #fff;
     }
+}
+
+.text-light {
+    color: $textLight !important;
 }
