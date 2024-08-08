@@ -1,4 +1,4 @@
-import styles from './CategoryItem.module.scss';
+import styles from './Categories.module.scss';
 
 interface Category {
     item: {
