@@ -1,5 +1,10 @@
 [
     {
+        "name": "Soup",
+        "id": 4,
+        "image": "images/soup.jpg"
+    },
+    {
         "name": "Salads",
         "id": 3,
         "image": "images/salad.jpg"

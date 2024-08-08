@@ -1,8 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from "../../assets/logo-shape.jpg";
-import logoText from "../../assets/logo-text.jpg";
 
 function Header() {
     return (
@@ -11,13 +9,13 @@ function Header() {
                 <Navbar.Brand href="#home">
                     <img
                         alt="The recipe guide"
-                        src={logo}
+                        src="images/logo-shape.jpg"
                         height="70"
                         className="d-inline-block align-top"
                     />{' '}
                     <img
                         alt="The recipe guide"
-                        src={logoText}
+                        src="images/logo-text.jpg"
                         width="280"
                         className="d-inline-block align-top"
                     />{' '}
